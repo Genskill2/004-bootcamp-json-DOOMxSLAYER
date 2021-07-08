@@ -17,3 +17,5 @@ def compute_phi(file,eventname):
     n00=0
     n10=0
     n01=0
+    for i in y:
+        if eventname in i.events:
